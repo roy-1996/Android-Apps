@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Date"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/exp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:lines="2"
+        android:text="Expression"
+        android:textColor="#0E0D0D"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="viewEnd"
+        android:textSize="30dp"
+
+
+
+        />
+
+
+</LinearLayout>
